@@ -52,6 +52,9 @@ if (!Element.prototype.matches) {
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+import 'core-js/es6/reflect';
+import 'core-js/es7/reflect';
+import 'zone.js/dist/zone';
 
 /**
  * Date, currency, decimal and percent pipes.
