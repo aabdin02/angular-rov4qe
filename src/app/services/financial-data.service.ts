@@ -19,10 +19,10 @@ export class FinancialDataService {
         ];
     }
     public getMulti(): any[] {
-        return [ this.getAmzn(), this.getGoog(), this.getMsft(), this.getTsla() ];
+        return [ this.getTsla() ];
     }
     public getThree(): any[] {
-        return [ this.getAmzn(), this.getMsft(), this.getTsla() ];
+        return [ this.getTsla() ];
     }
     public getAmzn(): any[] {
         const result: any = [
